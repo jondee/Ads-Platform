@@ -8,7 +8,7 @@ from sqlalchemy.orm import Session
 from .database import SessionLocal, engine, Base
 from . import crud
 
-from app.config import DATABASE_URL
+#from app.config import DATABASE_URL
 
 Base.metadata.create_all(bind=engine)
 
@@ -52,7 +52,7 @@ def about(request: Request):
         name="about.html",
         context={
             "request": request,
-            "database_url": DATABASE_URL,
+            #"database_url": DATABASE_URL,
         },
     )
 
