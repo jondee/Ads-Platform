@@ -8,7 +8,7 @@ body {
 }
 
 header {
-    background: #222;
+    background: #deec1994;
     color: white;
     padding: 1rem 2rem;
     display: flex;
@@ -106,7 +106,7 @@ button {
 }
 
 footer {
-    background: #222;
+    background: #c42a2a;
     color: white;
     padding: 1.5rem 2rem;
     text-align: center;
